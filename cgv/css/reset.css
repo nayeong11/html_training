@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*, html{margin: 0;padding: 0;box-sizing: border-box;
+text-decoration: none; list-style: none;
+}
+
+ol,ul{list-style: none;}
+a{text-decoration: none;}
+button{background: none; border: none;}
+
+body{   
+     font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blind{
+font-size: 0;
+position: absolute;
+left: -9999px;
+}
+
+.center{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+

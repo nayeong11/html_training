@@ -1,0 +1,24 @@
+/* #top-banner{
+    width: 100%;
+    position: relative;
+    background: #050e38; 
+} */
+
+.callout{
+    width: 100%;
+    position: relative;
+    background: #0a223b;
+}
+    
+.callout-container{
+text-align: center;
+}
+.closebtn{
+    position: absolute;
+    top: 5px; right: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.closebtn:hover{
+    color: tomato;
+}
