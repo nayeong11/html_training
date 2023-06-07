@@ -1,0 +1,338 @@
+.main-ad{
+    width: 100%;
+    height: 450px;
+    background: url(../images/bg_c_bricks.png);
+    background-size: contain;
+
+    z-index: 100;
+
+    border-top: 2px solid red;
+}
+
+/* .movie center{
+    z-index: 100;
+} */
+
+.movie{
+position: relative;
+/* text-align: center; */
+background: #000;
+
+/* width: 980px; */
+width: 100%;
+height: 498px;
+
+
+}
+
+.movie video{
+position: absolute;
+width: 980px;
+height: 498px;
+transform: translate(-50%,-50%);
+left: 50%;
+
+top: 50%;
+}
+
+/* **************movie center*********** */
+
+/* *************tapbtn************ */
+
+.movie-chart-tapbtn{
+/* display: inline-block; */
+position: relative;
+
+top: 100px;
+left: 530px;
+
+}
+
+.movie-chart-tapbtn a{
+    display: inline-block;
+    color: gray;
+}
+
+.movie-chart-tapbtn > .active{
+    font-weight: 700;
+    color: #000000;
+}
+
+/* *****************tapbtn************** */
+
+.chart{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    top: 120px;
+
+    /* width: auto; */
+    height: auto;
+
+}
+
+.chart img{
+    width: 170px;
+    height: 234px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* ***************************************** */
+
+.chart-info-wrap .chart{
+    position: relative;
+    /* border: 1px solid red; */
+    display: inline-block;
+
+    left: 520px;
+
+    text-align: center;
+
+}
+
+.chart-info-wrap .text {
+display: flex;
+flex-wrap: wrap;
+}
+
+.text .active img{
+    width: 16px;
+    height: 16px;
+}
+
+.text > .active::after{
+clear: both;
+content: '|';  
+/* display: inline-block; */
+padding: 0px 10px 0px 10px;
+}
+
+/* .movie-chart .center{
+position: relative;
+top: 20px;
+z-index: 100;
+
+}
+
+
+.movie-chart .center h2 img{
+    position: absolute;
+    top: 12px;
+    left: 300px;
+    z-index: 100;
+
+} */
+
+
+/* .movieLine2{
+position: relative;
+} */
+
+/* ********************SECTION END****************** */
+
+/* *********************event****************** */
+
+.event-wrap{
+    position: relative;
+
+    left: 535px;
+    top: 200px;
+}
+
+.nav03{
+    position: relative;
+
+    display: flex;
+}
+
+.nav03-01{
+
+}
+
+.nav03-01 > img{
+width: 307px;
+height: 207px;
+
+border-radius: 10px;
+}
+
+.nav03-02{
+
+}
+
+.nav03-02 > img{ 
+width: 307px;
+height: 207px;
+
+border-radius: 10px;
+}
+
+/* *******************event wrap**************** */
+
+.specialHall-wrap{
+position: relative;
+margin: 300px 0px 0px 530px;
+}
+
+.specialHall-wrap-content{
+
+}
+
+.specialHall-wrap-content li:hover{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.specialHall-wrap-content ul{
+    
+}
+
+.specialHall-wrap-content-nav{
+    display: flex;
+}
+
+.specialHall-wrap-content-nav > img{
+    width: 500px;
+}
+
+.specialHall-wrap-content ul{
+width: 440px;
+}
+
+
+.specialHall-wrap-content ul li{
+    border-top: 1px solid #e9e9e9;
+
+    border-radius: 10px;
+}
+
+.specialHall-wrap-content ul li a{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+
+}
+
+/* **************specialHall-wrap*********** */
+
+.giftcon-wrap{
+
+}
+
+.giftcon-wrap-content{
+width: 980px;
+height: 100%;
+}
+
+.giftcon-wrap-content ul{
+    
+}
+
+
+
+
+
+.f-list{
+position: relative;
+display: inline-block;
+vertical-align: top;
+overflow: hidden;
+height: 1em;
+top: 3px;
+left: 20px;
+
+}
+
+.f-list:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.f-list-name{
+    margin-top: 1em; line-height: 1;
+    animation: rolling 6s infinite;
+}
+
+@keyframes rolling {
+    
+    0%{transform: translateY(0);}
+    30%{transform: translateY(-25%);}
+    60%{transform: translateY(-50%);}
+    100%{transform: translateY(-75%);}
+
+}
+
+.infobar{
+    position: relative;
+    border-top: 1px solid black;
+    z-index: 10;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.orange{
+    position: relative;
+    width: 100%;
+    height: 182px;
+    background: #F5711F;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.orange img{
+    position: absolute;
+    top: -58px;
+    left: 460px;
+}
+
+.undernav{
+    position: relative;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.undernavline img{
+width: 100px;
+height: 100px;
+}
+
+footer{
+    position: relative;
+    display: inline-block;
+
+}
+
+footer h2{
+
+    text-align: center;
+   
+}
+
+footer p{
+
+
+   
+}
+
+.fixbar{
+display: inline-block;
+position: fixed;
+top: 200px;
+right: 20px;
+
+}
+
+.five-nav{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+}
+

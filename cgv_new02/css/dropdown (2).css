@@ -1,0 +1,90 @@
+.gnb{
+    position: relative;
+    height: 150px;
+
+    /* border: 1px solid red; */
+}
+
+.dropdownWrap{
+position: absolute;
+top: 134px; 
+left: 830px;
+transform: translate(-50%, -50%);
+
+z-index: 999;
+
+/* border: 1px solid red; */
+}
+
+.dropdown{
+position: relative;
+display: inline-block;
+}
+
+.dropbtn{
+display: inline-block;
+
+margin: 0px 30px 0px 30px;
+
+font-size: 18px;
+font-weight: 800;
+
+cursor: pointer;
+}
+
+.dropdown-content{
+display: none;
+position: absolute;
+z-index: 999;
+
+background-color: black;
+
+width: 150px;
+text-align: center;
+
+/* padding: 0px 0px 0px 0px; */
+margin: 0px 0px 0px 0px;
+
+/* border: 1px solid red; */
+
+
+}
+
+.dropdown-content a{
+display: block;
+
+margin: 0px 0px 0px 0px;
+padding: 10px 0px 10px 0px;
+
+color: #fff;
+/* border: 1px solid red; */
+
+}
+
+.dropdown-content a:hover{color: red;}
+.show{display: block;}
+
+/* **************form*************** */
+
+form{
+    position: absolute;
+    top: 120px;
+    right: 475px;
+    /* border: 1px solid red; */
+}
+
+form input{
+   width: 170px;
+   height: 24px;
+   padding: 0 10px;
+   float: left;
+}
+
+form button{
+    background: red; color: #fff;
+    width: 50px;
+    height: 24px;
+    font-weight: bold;
+    padding: 3px 2px;
+}
+

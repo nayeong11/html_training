@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다시 만드는 신버전 CGV</title>
+
+    <!-- <link rel="stylesheet" href="css/sytle2.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/close.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/dropdown.js"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script src="https://kit.fontawesome.com/80853ddfac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<aside id="top-banner">
+    <div class="callout">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <div class="callout-container">
+            <img src="images/banner.jpg" alt="트랜스포머 배너">
+        </div>
+    </div>
+</aside>
+
+<header>
+
+    <div class="center">
+
+        <div class="snb">
+
+            <div class="nav01">
+                
+                <a href="#"><img src="images/logo.png" alt=""></a>
+                <a href="#"><h2>CULTUREPLEX</h2></a>
+                
+            </div>
+
+            <div class="nav02"> 
+
+                <a href=""><img class="active" src="images/header_card.png" alt="현대카드"></a>
+                
+                <div class="header_icon">
+                    <a href=""><img src="images/header_icon_login.png" alt=""><p>로그인</p></a>
+                    <a href=""><img src="images/header_icon_signup.png" alt=""><p>회원가입</p></a>
+                    <a href=""><img src="images/header_icon_cgv.png" alt=""><p>MY CGV</p></a>
+                    <a href=""><img src="images/header_icon_headphone.png" alt=""> <p>고객센터</p></a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="header_box"></div>
+
+        <div class="gnb">
+
+            <div class="dropdownWrap">
+
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction()">영화</button>
+        
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="movie.html">무비차트</a>
+                        <a href="#">HD 트레일러</a>
+                        <a href="#">무비파인더</a>
+                        <a href="#">CGV 아트하우스</a>
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction2()">예매</button>
+        
+                    <div id="myDropdown2" class="dropdown-content">
+                        <a href="movie.html">무비차트</a>
+                        <a href="#">HD 트레일러</a>
+                        <a href="#">무비파인더</a>
+                        <a href="#">CGV 아트하우스</a>
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction3()">극장</button>
+        
+                    <div id="myDropdown3" class="dropdown-content">
+                        <a href="movie.html">무비차트</a>
+                        <a href="#">HD 트레일러</a>
+                        <a href="#">무비파인더</a>
+                        <a href="#">CGV 아트하우스</a>
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction4()">이벤트</button>
+        
+                    <div id="myDropdown4" class="dropdown-content">
+                        <a href="movie.html">무비차트</a>
+                        <a href="#">HD 트레일러</a>
+                        <a href="#">무비파인더</a>
+                        <a href="#">CGV 아트하우스</a>
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction4()">스토어</button>
+        
+                    <div id="myDropdown5" class="dropdown-content">
+                        <a href="movie.html">무비차트</a>
+                        <a href="#">HD 트레일러</a>
+                        <a href="#">무비파인더</a>
+                        <a href="#">CGV 아트하우스</a>
+                    </div>
+
+                </div>
+
+                <div class="dropdown">
+
+                    <button class="dropbtn" onclick="myFunction5()">혜택</button>
+        
+                    <div id="myDropdown5" class="dropdown-content">
+                        <a href="movie.html">무비차트</a>
+                        <a href="#">HD 트레일러</a>
+                        <a href="#">무비파인더</a>
+                        <a href="#">CGV 아트하우스</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <form action="">
+                <label for=""></label>
+                <input type="text" placeholder="영화 제목을 입력하세요">
+                <button type="submit">검색</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- **************************section***************************** -->
+
+<section>
+
+<article class="main-ad">
+
+    <div class="movie center">
+
+        <div class="movie">
+
+            <video controls width="250">
+                <source src="movie/movie.mp4" type="video/webm">
+            
+                <source src="movie/movie.mp4" type="video/mp4">
+            
+                Download the
+                <a href="movie/movie.mp4">WEBM</a>
+                or
+                <a href="movie/movie.mp4">MP4</a>
+                video.
+            </video>
+            
+        </div>
+    
+    </div>
+
+</article>
+
+<article class="movie-chart center">
+
+    <div class="movie-chart-tapbtn">
+        <a href="#" class="active"><h2>무비차트</h2></a>
+        <a href="#"><h2>| 상영예정작</h2></a>
+    </div>
+
+    <div class="chart">
+
+        <img src="images/chart_img01.jpg" alt="">
+        <img src="images/chart_img02.jpg" alt="">
+        <img src="images/chart_img03.jpg" alt="">
+        <img src="images/chart_img04.jpg" alt="">
+        <img src="images/chart_img05.jpg" alt="">
+
+
+    </div>
+    
+    <div class="chart-info-wrap">
+
+        <div class="chart01 chart">
+
+            <h2 class="chart01-title title">범죄도시3</h2>
+
+            <div class="chart01-text text">
+                <p class="active"><img src="images/eggGoldeneggPreegg.png" alt="">99%</p>
+                <span>예매율 57.9%</span>
+            </div>
+
+        </div>
+
+
+        <div class="chart02 chart">
+
+            <h2 class="chart02-title title">인어공주</h2>
+
+            <div class="chart02-text text">
+                <p class="active"><img src="images/eggGoldeneggPreegg.png" alt="">99%</p>
+                <span>예매율 57.9%</span>
+            </div>
+
+        </div>
+
+        <div class="chart03 chart">
+
+            <h2 class="chart03-title title">분노의 질주</h2>
+
+            <div class="chart03-text text">
+                <p class="active"><img src="images/eggGoldeneggPreegg.png" alt="">99%</p>
+                <span>예매율 57.9%</span>
+            </div>
+
+        </div>
+
+        <div class="chart04 chart">
+
+            <h2 class="chart04-title title">가디언즈 ...</h2>
+
+            <div class="chart04-text text">
+                <p class="active"><img src="images/eggGoldeneggPreegg.png" alt="">99%</p>
+                <span>예매율 57.9%</span>
+            </div>
+
+        </div>
+
+        <div class="chart05 chart">
+
+            <h2 class="chart05-title title">남은 인생 10년</h2>
+
+            <div class="chart05-text text">
+                <p class="active"><img src="images/eggGoldeneggPreegg.png" alt="">99%</p>
+                <span>예매율 57.9%</span>
+            </div>
+
+        </div>
+    </div>
+
+</article>
+
+    <article class="event-wrap">
+        
+        <h3>EVENT</h3>
+
+        <nav class="nav03">
+
+            <div class="nav03-01">
+
+                <img src="images/16855289183730.jpg" alt="">
+                <h4>[트랜스포머-비스트의 서막]필름마크</h4>
+                <p>2023.06.02~2023.06.15</p>
+            
+            </div>
+
+            <div class="nav03-02">
+
+                <img src="images/16849901149300.jpg" alt="">
+                <h4>[6월] 어린이를 위한7드런 시네마</h4>
+                <p>2023.05.25~2023.06.14</p>
+            
+            </div>
+
+        </nav>
+
+    </article>
+
+    <article class="specialHall-wrap">
+
+        <div class="specialHall-wrap-content">
+
+            <h3>특별관</h3>
+
+            <div class="specialHall-wrap-content-nav">
+
+                <img src="images/16382612660240.png" alt="">
+
+                <ul>
+                    <li> <a href=""> SUITE CINEMA <span>#호텔 컨셉의 프리미엄관</span> </a></li>
+                    <li><a href="">CINE & LIVINGROOM <span>#신개념 소셜 영화관</span> </a></li>
+                    <li><a href="">4DX <span>#모션시트 #오감체험</span> </a></li>
+                    <li><a href="">CINE de CHEF<span>#쉐프가 있는 영화관</span> </a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </article>
+
+    <article class="giftcon-wrap">
+
+        <div class="giftcon-wrap-content">
+
+            <ul>
+
+                <li>
+
+                    <dl>
+                        
+                        <dt>패키지</dt>
+
+                        <dd>
+                            <img src="images/popcorn.jpg" alt="">
+                        </dd>
+
+                    </dl>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </article>
+
+    <!-- <article class="info">
+        <a href="#"><i class="fa-solid fa-bars"></i>공지사항</a>
+        <div class="f-list">
+            <ul class="f-list-name">
+                <li>[기타] 2021 SVIP 스페셜 기프트 신청 안내</li>
+                <li>[기타] 커플링 클럽 데이트 쿠폰 이벤트 안내</li>
+                <li>[기타] 개인정보처리방침 개정 안내(3/1 자 시행)</li>
+                <li>[극장] [CGV] 정부 재난지원금 사용 안내</li>
+            </ul>
+        </div>
+    </article> -->
+
+
+    <!-- <article class="orange">
+        
+    </article> -->
+
+
+</section>
+
+<!-- <footer>
+
+<h6>회사소개| IR | 채용정보 | 광고프로모션문의 | 제휴문의 | 출장문의 | 이용약관 | 편성기준 |
+개인정보처리방침 | 법적고치 | 윤리경영 | 사이버감사실 | 사이트맵
+</h6>
+
+<p>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)
+    대표이사
+    허민회
+    사업자등록번호
+    104-81-45690
+    통신판매업신고번호
+    2017-서울용산-0662 사업자정보확인
+    <br>
+    호스팅사업자
+    CJ올리브네트웍스
+    개인정보보호 책임자
+    심준범
+    대표이메일
+    cjcgvmaster@cj.net
+    © CJ CGV. All Rights Reserved</p>
+
+</footer> -->
+
+<!-- <footer>
+
+    <div class="footer-center">
+
+        <div class="footer-top">
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">IR </a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">광고/프로모션문의</a></li>
+                <li><a href="#">제휴문의</a></li>
+                <li><a href="#">출점문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">편성기준</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">법적고지</a></li>
+                <li><a href="#">윤리경영</a></li>
+                <li><a href="#">사이버감사실</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-sns">
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>  
+            </div>
+                
+        </div>
+
+        <div class="footer-bottom">
+
+            <img src="images/cjcgv.png" alt="흑백로고">
+            <div class="footer_text">
+                <p>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</p>
+                <p>대표이사 : 허민회 | 사업자등등록 번호 : 104-81-45690 | 통신판매업신고번호 : 2017-서울용산-0662 사업자정보확인</p>
+                <p>호스팅사업자 : CJ올리브네트웍 | 개인정보보호 책임자 : 심준범대표 | 대표이메일 : cjcgvmaster@cj.net | 고객센터 : 1544-1122</p>
+                <p>© CJ CGV. All Rights Reserved</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer> -->
+
+<!-- <div class="fixbar">
+    <div class="five-nav">
+        <a href=""><img src="images/btn_person_arthouse.gif" alt=""></a>
+        <a href=""><img src="images/btn_person_discount.gif" alt=""></a>
+        <a href=""><img src="images/btn_person_special.gif" alt=""></a>
+        <a href=""><img src="images/btn_person_theater.gif" alt=""></a>
+        <a href=""><img src="images/btn_person_ticket.gif" alt=""></a>
+    </div>
+        <a href=""><img src="images/btn_top.png" alt=""></a>
+</div> -->
+
+
+
+
+</body>
+</html>
