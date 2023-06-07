@@ -5,105 +5,135 @@
     background-size: contain;
 
     z-index: 100;
+
+    border-top: 2px solid red ;
 }
 
-.slide center{
+/* .movie center{
     z-index: 100;
-}
-
-.movieLine1{
-    position: relative;
-}
-
-.line1{
-    width: 980px;
-    height: 10px;
-    background: url(../images/bg_h3_line.jpg);
-    
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-
-    top: 70px;
-
-
-    /* padding: 20px 40px; */
-
-
-}
-
-
-.movie-selection h2{
-    position: absolute;
-
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 70px;
-
-    z-index: 100;
-
-}
-
-.movie-selection li img{
-    width: 200px;
-
-}
-
-    
-/* .line1{
-    width: 1000px;
-    border-top: 1px solid black;
-    border-bottom: 1px dashed black;
-    padding: 0px 0px 10px 0px;
-    margin: 0 auto;
 } */
+
+.movie{
+position: relative;
+/* text-align: center; */
+background: #000;
+
+/* width: 980px; */
+width: 100%;
+height: 498px;
+
+
+}
+
+.movie video{
+position: absolute;
+width: 980px;
+height: 498px;
+transform: translate(-50%,-50%);
+left: 50%;
+
+top: 50%;
+}
+
+/* **************movie center*********** */
+
+/* *************tapbtn************ */
+
+.movie-chart-tapbtn{
+/* display: inline-block; */
+position: relative;
+
+top: 100px;
+left: 340px;
+
+}
+
+.movie-chart-tapbtn a{
+    display: inline-block;
+    color: gray;
+}
+
+.movie-chart-tapbtn > .active{
+    font-weight: 700;
+    color: #000000;
+}
+
+/* *****************tapbtn************** */
+
+.chart{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    top: 120px;
+
+    /* width: auto; */
+    height: auto;
+
+}
+
+.chart img{
+    width: 170px;
+    height: 234px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* ***************************************** */
+
+.chart-info-wrap .chart{
+    position: relative;
+    border: 1px solid red;
+    display: inline-block;
+
+    left: 400px;
+
+}
+
+.chart-info-wrap .text {
+display: flex;
+flex-wrap: wrap;
+}
+
+.text .active img{
+    width: 16px;
+    height: 16px;
+}
+
+.text > .active::after{
+clear: both;
+content: '|';  
+/* display: inline-block; */
+padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
     
-.movie-selection .center{
+/* .movie-chart .center{
 position: relative;
 top: 20px;
 z-index: 100;
 
 }
 
-.movie-selection .center h2 img{
+
+.movie-chart .center h2 img{
     position: absolute;
     top: 12px;
     left: 300px;
     z-index: 100;
 
-}
-    
-.movie-selection ul li{
-position: absolute;
-top: 120px;
-left: 100px;
-    
-}
-    
-.movie-selection ul li a{
-position: absolute;
-left: 765px;
-}
+} */
+
 
 /* .movieLine2{
 position: relative;
 } */
 
-.movieLine2{
-    width: 980px;
-    height: 10px;
-    /* background: url(../images/bg_h3_line.jpg); */
-    
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-
-    top: 1180px;
-
-
-    /* padding: 20px 40px; */
-
-}
 
 .event-center{
     position: relative;
